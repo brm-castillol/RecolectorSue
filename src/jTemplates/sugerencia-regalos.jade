@@ -1,0 +1,96 @@
+//-Layout Base
+extends partials/base.jade
+
+//-Etiqueta Title
+block title
+	- var seccion = "Demo"
+	- var titulo = "Home";
+	
+	title Recolector de Sueños | #{titulo}
+
+//-Etiqueta Metadescription
+block description
+	meta(name="description", content="Index Deprisa" )
+
+//-Breadcrumbs
+block migas
+	li  #{titulo}
+
+block content
+
+
+	//-Sugerencias Regalos
+	section.container-fluid
+		div.row
+
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+				div.titularSeccion
+
+					img.img-resposive
+
+					h1 Sugerencias de regalo
+
+		div.row
+			div.col-lg-3.col-md-3.col-sm-3.col-xs12
+				div.titularSeccion
+
+					img.img-responsive(src="", alt="Regalos")
+
+			div.col-lg-3.col-md-3.col-sm-3.col-xs12
+				div.titularSeccion
+
+					img.img-responsive(src="", alt="Regalos2")
+
+			div.col-lg-3.col-md-3.col-sm-3.col-xs12
+				div.titularSeccion
+
+					img.img-responsive(src="", alt="Regalos3")
+
+			div.col-lg-3.col-md-3.col-sm-3.col-xs12
+				div.titularSeccion
+
+					img.img-responsive(src="", alt="Regalos4")
+				
+
+
+					
+
+		div.row
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+				a.btn-volver(href="#")
+					img.img-responsive(src="", alt="Volver")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

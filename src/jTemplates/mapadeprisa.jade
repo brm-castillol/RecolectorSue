@@ -1,0 +1,71 @@
+//-Layout Base
+extends partials/base.jade
+
+//-Etiqueta Title
+block title
+	- var seccion = "Demo"
+	- var titulo = "Mapa";
+	
+	title Recolector de Sueños | #{titulo}
+
+//-Etiqueta Metadescription
+block description
+	meta(name="description", content="Index Deprisa" )
+
+block content
+
+
+	//-MapaPuntos cercanos
+	section.container-fluid
+		div.row
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+				div.titularSeccion
+
+					h1 Encuentra tu Punto Deprisa más cercano
+
+					div.conte-iframe-mapa
+
+						label Selecciona tu ciudad
+						select
+							option Bogotá
+							option Medellín
+							option Cali
+
+						p.
+							AQUI VA EL PINCHE MAPA
+
+
+		//-Recomendaciones
+		div.row
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+				div.titularSeccion.height-alto
+
+					h2 Recomendaciones para entregar tu regalo
+
+					div.conte-recomendaciones
+
+						p.
+							<span>1.</span> Selecciona el sueño.
+
+						p.
+							<span>2.</span> Registra tus datos personales. Inspírate y escribe un mensaje que podrás descargar y adjuntar al regalo del niño que vas a apoyar.
+
+						p.
+							<span>3.</span> Ubica el punto Deprisa más cercano y llévalo allí.
+
+
+						p.
+							<span>4.</span> Gracias a tu generosidad hoy un niño empezará a construir uno de sus sueños.
+
+		div.row
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+				a.btn-volver(href="#")
+					img.img-responsive(src="", alt="Volver")
+
+				a.btn-volver(href="#")
+					img.img-responsive(src="", alt="Cotinuar")
+
+
+
+
+

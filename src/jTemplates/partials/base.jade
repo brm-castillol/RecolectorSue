@@ -3,6 +3,7 @@ doctype html
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="es-CO"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="es-CO"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="es-CO"> <!--<![endif]-->
+
 head
 	meta(charset='utf-8')
 	block title
@@ -18,7 +19,7 @@ head
 
 	else
 		//-El nombre del archivo se debe reemplazar por el atributo name del package.json
-		link(rel='stylesheet', href='css/frontend-brm.min.css') 
+		link(rel='stylesheet', href='css/recolector.min.css') 
 
 	// Web Fonts
 	link(href='http://fonts.googleapis.com/css?family=Varela+Round|Roboto:400italic,300,700,400' rel='stylesheet' type='text/css')
@@ -38,25 +39,19 @@ body
 	include header.jade
 	
 	//-Contenido de cada page
-	div.container-fluid
+		//-div.container-fluid
 
 		div.row
 
 			div.col-lg-10.col-md-10.col-sm-10.col-xs-12.col-lg-offset-1.col-md-offset-1.col-sm-offset-1
 
-				include ../modules/breadcrumbs.jade
+			//-include ../modules/breadcrumbs.jade
 	
 	//-Este bloque es para el markup de cada HTML
 	block content
 
 	div.container-fluid
 
-		div.row
-
-			div.col-lg-10.col-md-10.col-sm-10.col-xs-12.col-lg-offset-1.col-md-offset-1.col-sm-offset-1
-
-				include ../modules/breadcrumbs.jade
-			
 
 	//- Layout del Footer
 	include footer.jade

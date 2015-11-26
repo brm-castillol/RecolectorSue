@@ -1,0 +1,126 @@
+//-Layout Base
+extends partials/base.jade
+
+//-Etiqueta Title
+block title
+	- var seccion = "Demo"
+	- var titulo = "Home";
+	
+	title Recolector de Sueños | #{titulo}
+
+//-Etiqueta Metadescription
+block description
+	meta(name="description", content="Index Deprisa" )
+
+//-Breadcrumbs
+block migas
+	li  #{titulo}
+
+block content
+
+
+	//-Perfil Niños
+	section.container-fluid
+		div.row
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+				div.titularSeccion
+
+					h1 Capitan
+
+					img.img-resposive(src="", alt="Avion")
+
+					p.
+						Inspírate y escribe un mensaje que podrás descargar y adjuntar al regalo del niño que vas a apoyar.
+
+		//-Datos Niños
+		div.row
+			
+			div.col-lg-6.col-md-6.col-sm-6.col-xs12
+				
+				img.img-resposive(src="", alt="ImgNiños")
+
+				h3 Maria Cristina Gomez
+				span 7 Años
+				span Fundación Niños por un nuevo planeta
+
+
+			//-Registro
+			div#datos-registro.col-lg-6.col-md-6.col-sm-6.col-xs12
+				label Nombre
+				input(type="text")
+
+				label Correo
+				input(type="text")
+
+				label Cedula
+				input(type="text")
+
+				label Selecciona el diseño de tu tarjeta:
+
+				button.tarjeta.
+						Opcion 1
+
+				button.tarjeta.
+						Opcion  2.
+
+				a.btn-volver(href="#")
+			
+					img.img-responsive(src="", alt="Descargar")
+
+				a.btn-volver(href="#")
+			
+					img.img-responsive(src="", alt="Enviar")
+
+			//-Tarjeta
+			div#datos-tarjeta.col-lg-6.col-md-6.col-sm-6.col-xs12(style="display:none;")
+
+				a.btn-volver(href="#")
+			
+					img.img-responsive(src="", alt="Descargar")
+
+				a.btn-volver(href="#")
+			
+					img.img-responsive(src="", alt="Enviar")
+		
+		div.row
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+				a.btn-volver(href="#")
+					img.img-responsive(src="", alt="Volver")
+
+				a.btn-volver(href="#")
+					img.img-responsive(src="", alt="Cotinuar")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

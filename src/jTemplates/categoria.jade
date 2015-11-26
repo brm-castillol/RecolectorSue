@@ -1,0 +1,105 @@
+//-Layout Base
+extends partials/base.jade
+
+//-Etiqueta Title
+block title
+	- var seccion = "Demo"
+	- var titulo = "Home";
+	
+	title Recolector de Sueños | #{titulo}
+
+//-Etiqueta Metadescription
+block description
+	meta(name="description", content="Index Deprisa" )
+
+//-Breadcrumbs
+block migas
+	li  #{titulo}
+
+block content
+
+
+	//-GaleriaSueños
+	section.container-fluid
+		div.row
+
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+				div.titularSeccion
+
+					img.img-resposive
+
+					h1 Sueño ser... Piloto
+
+					div#mycarousel.carousel.slide.caro-caterogia(data-ride="carousel")
+
+						//-ContenedorImagenes
+						div.carousel-inner(role="listbox")
+
+							div.item.active
+
+								img(alt="Doctores")
+
+							div.item
+
+								img(alt="Profesores")
+
+							div.item
+
+								img(alt="Chefs")
+
+							div.item
+
+								img(alt="Pilotos")
+
+						//-Flechas
+						a.left.carousel-control(href="#mycarousel",role="button",data-slide="prev")
+							span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+							span.sr-only.
+											Anterior
+
+						a.right.carousel-control(href="#mycarousel",role="button",data-slide="next")
+							span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+							span.sr-only.
+											Siguiente
+
+		div.row
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+				a.btn-volver(href="#")
+					img.img-responsive(src="", alt="Volver")
+
+				a.btn-volver(href="#")
+					img.img-responsive(src="", alt="Cotinuar")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

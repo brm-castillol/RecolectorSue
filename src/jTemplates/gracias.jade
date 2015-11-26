@@ -1,0 +1,78 @@
+//-Layout Base
+extends partials/base.jade
+
+//-Etiqueta Title
+block title
+	- var seccion = "Demo"
+	- var titulo = "Home";
+	
+	title Recolector de Sueños | #{titulo}
+
+//-Etiqueta Metadescription
+block description
+	meta(name="description", content="Index Deprisa" )
+
+//-Breadcrumbs
+block migas
+	li  #{titulo}
+
+block content
+
+
+	//-Sugerencias Regalos
+	section.container-fluid
+		div.row
+			div.col-lg-6.col-md-6.col-sm-6.col-xs12
+				
+				h2 ¡Gracias a tu ayuda, en esta navidad un niño podrá soñar con un mejor futuro!
+				
+
+				a.btn-volver(href="#")
+					img.img-responsive(src="", alt="Compartir")
+
+				a.btn-volver(href="#")
+					img.img-responsive(src="", alt="Apoyarotro")
+					
+
+		div.row
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+
+				img.img-responsive(src="", alt="NiñoX")
+
+				h4 Maria Cristina Gomez
+				h3 7 Años
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

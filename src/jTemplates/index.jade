@@ -6,11 +6,11 @@ block title
 	- var seccion = "Demo"
 	- var titulo = "Home";
 	
-	title Ejemplo de meta title | #{titulo}
+	title Recolector de Sueños | #{titulo}
 
 //-Etiqueta Metadescription
 block description
-	meta(name="description", content="Frontend BRM" )
+	meta(name="description", content="Index Deprisa" )
 
 //-Breadcrumbs
 block migas
@@ -18,24 +18,129 @@ block migas
 
 block content
 
+
+	//-Bienvenido
 	section.container-fluid
 		div.row
 
-			article.col-lg-10.col-md-10.col-sm-10.col-xs-12.col-lg-offset-1.col-md-offset-1.col-sm-offset-1
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+
 				div.titularSeccion
-					h1= titulo
 
-					h4 hola que hace
+					h1 &iexcl;Bienvenido a Recolector de Sueños!
+
+			
+					p.
+						Un espacio en el que t&uacute; puedes ser el primer impulso para que un niño en Colombia pueda cumplir uno de sus sueños.
+
+				div.cont-video-campa
+
+					p.
+						REPRODUCIR VIDEO
 
 
-				p.
-					En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. Frisaba la edad de nuestro hidalgo con los cincuenta años; era de complexión recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. Quieren decir que tenía el sobrenombre de Quijada, o Quesada, que en esto hay alguna diferencia en los autores que deste caso escriben; aunque, por conjeturas verosímiles, se deja entender que se llamaba Quejana. Pero esto importa poco a nuestro cuento; basta que en la narración dél no se salga un punto de la verdad. 
+	//-Pasos
+	section.container-fluid
+		div.row
+			
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+				div.titularSeccion
+
+					h2  	&iquest;C&oacute;mo puedes hacer parte de Recolector de Sue&ntilde;os? 
+
+				div.cont-infografia
+
+					p.
+						Sigue estos 4 pasos y estar&aacute;s m&aacute;s cerca de ayudar a cumplir el sue&ntilde;o de un niño.
+
+
+					p.
+						<span>1.</span> Selecciona el sueño.
+
+					p.
+						<span>2.</span> Registra tus datos personales. Inspírate y escribe un mensaje que podrás descargar y adjuntar al regalo del niño que vas a apoyar.
+
+					p.
+						<span>3.</span> Ubica el punto Deprisa más cercano y llévalo allí.
+
+
+					p.
+						<span>4.</span> Gracias a tu generosidad hoy un niño empezará a construir uno de sus sueños.
+
+					p.
+						* Aplican términos y condiciones.
+
+	//-GaleriaSueños
+	section.container-fluid
+		div.row
+
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+				div.titularSeccion
+
+					h2  	Aquí hay muchos sueños por cumplir, &iexcl;Elije uno!
+
+					div#mycarousel.carousel.slide(data-ride="carousel")
+
+						//-ContenedorImagenes
+						div.carousel-inner(role="listbox")
+
+							div.item.active
+
+								img(alt="Doctores")
+
+							div.item
+
+								img(alt="Profesores")
+
+							div.item
+
+								img(alt="Chefs")
+
+							div.item
+
+								img(alt="Pilotos")
+
+						//-Flechas
+						a.left.carousel-control(href="#mycarousel",role="button",data-slide="prev")
+							span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+							span.sr-only.
+											Anterior
+
+						a.right.carousel-control(href="#mycarousel",role="button",data-slide="next")
+							span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+							span.sr-only.
+											Siguiente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 	
-	
-
-block Scripts
-	script(src='https://apis.google.com/js/platform.js')
-
