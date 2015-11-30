@@ -26,10 +26,61 @@ h2 {
   font-family: 'September-Mornings', sans-serif;
   font-size: 9rem;
   line-height: 5rem;
-  margin: 0.3em 0;
+  margin: 0.3em 0 0;
+  position: relative;
+  z-index: 200000;
 }
-.conte-general-recolector {
+.img-manchita {
+  background-image: url("../images/img-mancha.png");
+  display: inline-block;
+  height: 53px;
+  margin: -6% 0 0 30%;
+  width: 146px;
+}
+.img-manchita2 {
+  background-image: url("../images/img-mancha.png");
+  display: inline-block;
+  height: 53px;
+  margin: -6% 0 0 60%;
+  width: 146px;
+}
+.cont-inform-recolector {
+  background-image: url("../images/fondo-contenedores.png");
+  background-repeat: no-repeat;
+  height: 600px;
   margin: 0 auto;
+  width: 95%;
+}
+.cont-infografia {
+  padding-top: 8%;
+}
+.cont-infografia p.intro-pasosRS {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  width: 60%;
+}
+.cont-infografia p {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.cont-infografia span {
+  color: #ffff6c;
+  font-family: 'September-Mornings', sans-serif;
+  font-size: 11rem;
+}
+.cont-infografia p.paso-primero {
+  margin-top: 40%;
+}
+.cont-infografia p.paso-segundo {
+  margin-top: 57%;
+}
+.cont-infografia p.paso-tercero {
+  margin-top: 40%;
+}
+.cont-infografia h2.pasos {
+  font-size: 7rem;
+  line-height: 4rem;
+  text-align: center;
 }
 .btn-cargar-mas {
   background-color: #144b80 !important;
@@ -212,29 +263,29 @@ p.legales-validador {
   width: 50px;
 }
 .star-a {
+  left: 64%;
   position: absolute;
   top: 26%;
-  left: 64%;
 }
 .star-b {
+  left: 10%;
   position: absolute;
   top: 64%;
-  left: 10%;
 }
 .star-c {
+  left: 76%;
   position: absolute;
   top: 69%;
-  left: 76%;
 }
 .star-d {
+  left: 34%;
   position: absolute;
   top: 53%;
-  left: 34%;
 }
 .star-e {
+  left: 23%;
   position: absolute;
   top: 27%;
-  left: 23%;
 }
 .cont-Estella-B {
   background-position: -541px -68px;
@@ -243,29 +294,29 @@ p.legales-validador {
   width: 50px;
 }
 .star-1 {
+  left: 48%;
   position: absolute;
   top: 22%;
-  left: 48%;
 }
 .star-2 {
+  left: 68%;
   position: absolute;
   top: 70%;
-  left: 68%;
 }
 .star-3 {
+  left: 83%;
   position: absolute;
   top: 50%;
-  left: 83%;
 }
 .star-4 {
+  left: 29%;
   position: absolute;
   top: 31%;
-  left: 29%;
 }
 .star-5 {
+  left: 50%;
   position: absolute;
   top: 86%;
-  left: 50%;
 }
 .cont-Estella2 {
   background-position: -534px -2px;
@@ -274,19 +325,19 @@ p.legales-validador {
   width: 66px;
 }
 .stars-a {
+  left: 26%;
   position: absolute;
   top: 74%;
-  left: 26%;
 }
 .stars-b {
+  left: 65%;
   position: absolute;
   top: 55%;
-  left: 65%;
 }
 .stars-c {
+  left: 80%;
   position: absolute;
   top: 83%;
-  left: 80%;
 }
 .cont-nube {
   background-position: 8px 106px;
@@ -294,9 +345,9 @@ p.legales-validador {
   width: 150px;
 }
 .nube-a {
+  left: 72%;
   position: absolute;
   top: 50%;
-  left: 72%;
 }
 .cont-nube-2 {
   background-position: -1030px 106px;
@@ -304,9 +355,9 @@ p.legales-validador {
   width: 150px;
 }
 .nube-b {
+  left: 23%;
   position: absolute;
   top: 60%;
-  left: 23%;
 }
 .punto-R {
   background-color: #b21f3b;
@@ -316,24 +367,24 @@ p.legales-validador {
   width: 10px;
 }
 .posicion-a {
+  left: 76%;
   position: absolute;
   top: 24%;
-  left: 76%;
 }
 .posicion-b {
+  left: 63%;
   position: absolute;
   top: 57%;
-  left: 63%;
 }
 .posicion-c {
+  left: 24%;
   position: absolute;
   top: 73%;
-  left: 24%;
 }
 .posicion-d {
+  left: 20%;
   position: absolute;
   top: 30%;
-  left: 20%;
 }
 .punto-A {
   background-color: #80d7f9;
@@ -343,24 +394,24 @@ p.legales-validador {
   width: 12px;
 }
 .posicionA-a {
+  left: 54%;
   position: absolute;
   top: 56%;
-  left: 54%;
 }
 .posicionA-b {
+  left: 33%;
   position: absolute;
   top: 73%;
-  left: 33%;
 }
 .posicionA-c {
+  left: 80%;
   position: absolute;
   top: 66%;
-  left: 80%;
 }
 .posicionA-d {
+  left: 46%;
   position: absolute;
   top: 26%;
-  left: 46%;
 }
 .punto-B {
   background-color: #fff;
@@ -370,24 +421,24 @@ p.legales-validador {
   width: 5px;
 }
 .posicionB-a {
+  left: 69%;
   position: absolute;
   top: 72%;
-  left: 69%;
 }
 .posicionB-b {
+  left: 60%;
   position: absolute;
   top: 28%;
-  left: 60%;
 }
 .posicionB-c {
+  left: 22%;
   position: absolute;
   top: 84%;
-  left: 22%;
 }
 .posicionB-d {
+  left: 74%;
   position: absolute;
   top: 80%;
-  left: 74%;
 }
 .u-bg-azul {
   background-color: #144b80;
