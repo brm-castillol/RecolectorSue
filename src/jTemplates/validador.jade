@@ -1,0 +1,91 @@
+//-Layout Base
+extends partials/base.jade
+
+//-Etiqueta Title
+block title
+	- var seccion = "Demo"
+	- var titulo = "Home";
+	
+	title Recolector de Sueños | #{titulo}
+
+//-Etiqueta Metadescription
+block description
+	meta(name="description", content="Index Deprisa" )
+
+//-Breadcrumbs
+block migas
+	li  #{titulo}
+
+block content
+
+
+	//-Bienvenido
+	section.container-fluid
+		div.row
+
+			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+
+				div.titularSeccion
+
+					h1 &iexcl;Bienvenido a Recolector de Sueños!
+
+			
+					p.
+						Un espacio en el que t&uacute; puedes ser el primer impulso para que un niño en Colombia pueda cumplir uno de sus sueños.
+
+				div.cont-validador
+
+					label Selecciona tu ciudad
+						select
+							option Bogotá
+							option Medellín
+							option Cali
+				
+
+
+				
+
+				//-Flechas
+						a.left.carousel-control(href="#mycarousel",role="button",data-slide="prev")
+							span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+							span.sr-only.
+											Anterior
+
+						a.right.carousel-control(href="#mycarousel",role="button",data-slide="next")
+							span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+							span.sr-only.
+											Siguiente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

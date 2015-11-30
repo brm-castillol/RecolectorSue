@@ -1,4 +1,4 @@
-/*! Recolector de Sueños - v0.1.0 - 2015-11-24
+/*! Recolector de Sueños - v0.1.0 - 2015-11-26
 * https://github.com/castillol/HTML
 * Copyright (c) 2015 Lady Castillo; Licensed MIT */
 a {
@@ -18,7 +18,8 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Varela;
+  font-family: 'September-Mornings', sans-serif;
+  color: #ffff6c;
 }
 .btn-cargar-mas {
   background-color: #144b80 !important;
@@ -42,19 +43,45 @@ h3 {
   height: 225px !important;
   width: 100%;
 }
-.nav-tabs li {
+.cont-menu-recolector {
+  padding: 6% 0 0;
+}
+.cont-logos-principales {
+  padding-top: 4%;
+  margin: 0;
+}
+.nav {
   border: none;
+}
+.nav-tabs li {
   backgound-color: #fff;
-  font-family: 'Roboto-Regular', sans-serif;
+  border: none;
   color: #144b80;
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 0.8em;
 }
 .nav-tabs li.active a {
   border: none;
+  backgound-color: none;
   color: #80d7f9;
   text-decoration: none;
 }
 .nav-tabs li.active a:hover {
   border: none;
+  backgound-color: #fff !important;
+  color: #80d7f9;
+  text-decoration: none;
+}
+.nav-tabs li a {
+  border: none;
+  backgound-color: none;
+  color: #144b80;
+  text-decoration: none;
+}
+.nav-tabs li a:hover,
+.nav-tabs li a:focus {
+  border: none;
+  backgound-color: none !important;
   color: #80d7f9;
   text-decoration: none;
 }
@@ -62,23 +89,10 @@ h3 {
   height: 700px;
 }
 footer {
-  background-color: #ddded9;
+  background-image: url("../images/bg-footer.png");
   bottom: 0;
   color: #fff;
   position: absolute;
-  width: 100%;
-}
-footer:before {
-  background-image: url("../images/bg-footer.png");
-  background-repeat: no-repeat;
-  background-position: top center;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  background-size: 100%;
-  height: 373px;
-  pointer-events: none;
-  position: relative;
-  top: 0;
   width: 100%;
 }
 .caro-caterogia {
@@ -86,6 +100,34 @@ footer:before {
 }
 .carousel {
   max-width: 50%;
+}
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url("../fonts/Roboto-Bold.eot");
+  src: url("../fonts/Roboto-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/Roboto-Bold.woff2") format('woff2'), url("../fonts/Roboto-Bold.woff") format('woff'), url("../fonts/Roboto-Bold.ttf") format('truetype'), url("../fonts/Roboto-Bold.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/Roboto-Regular.eot");
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/Roboto-Regular.woff2") format('woff2'), url("../fonts/Roboto-Regular.woff") format('woff'), url("../fonts/Roboto-Regular.ttf") format('truetype'), url("../fonts/Roboto-Regular.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url("../fonts/Roboto-Thin.eot");
+  src: url("../fonts/Roboto-Thin.eot?#iefix") format('embedded-opentype'), url("../fonts/Roboto-Thin.woff2") format('woff2'), url("../fonts/Roboto-Thin.woff") format('woff'), url("../fonts/Roboto-Thin.ttf") format('truetype'), url("../fonts/Roboto-Thin.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'September-Mornings';
+  src: url("../fonts/September-Mornings.eot");
+  src: url("../fonts/September-Mornings.eot?#iefix") format('embedded-opentype'), url("../fonts/September-Mornings.woff2") format('woff2'), url("../fonts/September-Mornings.woff") format('woff'), url("../fonts/September-Mornings.ttf") format('truetype'), url("../fonts/September-Mornings.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 .u-bg-azul {
   background-color: #144b80;
