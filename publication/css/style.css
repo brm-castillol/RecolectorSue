@@ -1,4 +1,4 @@
-/*! Recolector de Sueños - v0.1.0 - 2015-11-26
+/*! Recolector de Sueños - v0.1.0 - 2015-11-30
 * https://github.com/castillol/HTML
 * Copyright (c) 2015 Lady Castillo; Licensed MIT */
 a {
@@ -12,14 +12,24 @@ a img {
 }
 body {
   background-color: #144b80;
-  color: Gris;
+  color: #9e9e9e;
   font-size: 1.3em;
 }
+p {
+  font-family: 'Roboto-Thin', sans-serif;
+  color: #fff;
+  font-size: 1.4rem;
+}
 h1,
-h2,
-h3 {
-  font-family: 'September-Mornings', sans-serif;
+h2 {
   color: #ffff6c;
+  font-family: 'September-Mornings', sans-serif;
+  font-size: 9rem;
+  line-height: 5rem;
+  margin: 0.3em 0;
+}
+.conte-general-recolector {
+  margin: 0 auto;
 }
 .btn-cargar-mas {
   background-color: #144b80 !important;
@@ -40,7 +50,8 @@ h3 {
 }
 .recolectorSue {
   background-image: url("../images/fondoHeader.png");
-  height: 225px !important;
+  background-repeat-y: no-repeat;
+  height: 190px !important;
   width: 100%;
 }
 .cont-menu-recolector {
@@ -48,7 +59,6 @@ h3 {
 }
 .cont-logos-principales {
   padding-top: 4%;
-  margin: 0;
 }
 .nav {
   border: none;
@@ -128,6 +138,256 @@ footer {
   src: url("../fonts/September-Mornings.eot?#iefix") format('embedded-opentype'), url("../fonts/September-Mornings.woff2") format('woff2'), url("../fonts/September-Mornings.woff") format('woff'), url("../fonts/September-Mornings.ttf") format('truetype'), url("../fonts/September-Mornings.svg") format('svg');
   font-weight: normal;
   font-style: normal;
+}
+h1.tiulo-validador {
+  color: #ffff6c;
+  font-family: 'September-Mornings', sans-serif;
+  font-size: 12rem;
+  line-height: 5rem;
+  margin: 0.3em 0;
+  text-align: center;
+}
+p.intro-validador {
+  color: #fff;
+  font-family: 'September-Mornings', sans-serif;
+  font-size: 6.2rem;
+  line-height: 3rem;
+  text-align: center;
+}
+.cont-validador {
+  margin: 0 auto;
+  width: 28%;
+}
+.cont-validador label {
+  color: #ffff6c;
+  font-family: 'September-Mornings', sans-serif;
+  font-size: 7rem;
+  font-weight: 200;
+  height: 60px;
+  margin: 0;
+}
+.cont-validador select {
+  border: 1px #80d7f9 solid;
+  color: #9e9e9e;
+  font-family: 'Roboto-Thin', sans-serif;
+  height: 30px;
+  width: 100%;
+}
+p.legales-validador {
+  color: #fff;
+  font-family: 'Roboto-Thin', sans-serif;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin: 2% auto 0;
+  text-align: justify;
+  width: 30%;
+}
+.sprite-nubes-luna {
+  background-image: url("../images/nubes-luna.png");
+}
+.sprite-estrellas {
+  background-image: url("../images/img-estrellas.png");
+}
+.cont-Astronauta {
+  background-image: url("../images/img-astronauta.png");
+  height: 396px;
+  width: 407px;
+  position: absolute;
+  top: 35%;
+  left: 9%;
+}
+.cont-Luna {
+  background-position: -624px -8px;
+  display: inline-block;
+  height: 278px;
+  left: 68%;
+  position: absolute;
+  top: 27%;
+  width: 278px;
+}
+.cont-Estella {
+  background-position: -599px -8px;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+.star-a {
+  position: absolute;
+  top: 26%;
+  left: 64%;
+}
+.star-b {
+  position: absolute;
+  top: 64%;
+  left: 10%;
+}
+.star-c {
+  position: absolute;
+  top: 69%;
+  left: 76%;
+}
+.star-d {
+  position: absolute;
+  top: 53%;
+  left: 34%;
+}
+.star-e {
+  position: absolute;
+  top: 27%;
+  left: 23%;
+}
+.cont-Estella-B {
+  background-position: -541px -68px;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+.star-1 {
+  position: absolute;
+  top: 22%;
+  left: 48%;
+}
+.star-2 {
+  position: absolute;
+  top: 70%;
+  left: 68%;
+}
+.star-3 {
+  position: absolute;
+  top: 50%;
+  left: 83%;
+}
+.star-4 {
+  position: absolute;
+  top: 31%;
+  left: 29%;
+}
+.star-5 {
+  position: absolute;
+  top: 86%;
+  left: 50%;
+}
+.cont-Estella2 {
+  background-position: -534px -2px;
+  display: inline-block;
+  height: 66px;
+  width: 66px;
+}
+.stars-a {
+  position: absolute;
+  top: 74%;
+  left: 26%;
+}
+.stars-b {
+  position: absolute;
+  top: 55%;
+  left: 65%;
+}
+.stars-c {
+  position: absolute;
+  top: 83%;
+  left: 80%;
+}
+.cont-nube {
+  background-position: 8px 106px;
+  height: 100px;
+  width: 150px;
+}
+.nube-a {
+  position: absolute;
+  top: 50%;
+  left: 72%;
+}
+.cont-nube-2 {
+  background-position: -1030px 106px;
+  height: 100px;
+  width: 150px;
+}
+.nube-b {
+  position: absolute;
+  top: 60%;
+  left: 23%;
+}
+.punto-R {
+  background-color: #b21f3b;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  height: 10px;
+  width: 10px;
+}
+.posicion-a {
+  position: absolute;
+  top: 24%;
+  left: 76%;
+}
+.posicion-b {
+  position: absolute;
+  top: 57%;
+  left: 63%;
+}
+.posicion-c {
+  position: absolute;
+  top: 73%;
+  left: 24%;
+}
+.posicion-d {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+.punto-A {
+  background-color: #80d7f9;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  height: 12px;
+  width: 12px;
+}
+.posicionA-a {
+  position: absolute;
+  top: 56%;
+  left: 54%;
+}
+.posicionA-b {
+  position: absolute;
+  top: 73%;
+  left: 33%;
+}
+.posicionA-c {
+  position: absolute;
+  top: 66%;
+  left: 80%;
+}
+.posicionA-d {
+  position: absolute;
+  top: 26%;
+  left: 46%;
+}
+.punto-B {
+  background-color: #fff;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  height: 5px;
+  width: 5px;
+}
+.posicionB-a {
+  position: absolute;
+  top: 72%;
+  left: 69%;
+}
+.posicionB-b {
+  position: absolute;
+  top: 28%;
+  left: 60%;
+}
+.posicionB-c {
+  position: absolute;
+  top: 84%;
+  left: 22%;
+}
+.posicionB-d {
+  position: absolute;
+  top: 80%;
+  left: 74%;
 }
 .u-bg-azul {
   background-color: #144b80;
