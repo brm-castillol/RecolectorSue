@@ -24,7 +24,7 @@ block content
 	section.container-fluid
 		div.row
 			
-			div.col-lg-10.col-md-10.col-sm-12.col-xs12.col-lg-offset-1.col-md-offset-1
+			div.col-lg-8.col-md-8.col-sm-12.col-xs12.col-lg-offset-2.col-md-offset-1
 				div.titularSeccion
 
 					h1  	&iquest;Qu&eacute; es Recolector de Sueños? 
@@ -57,7 +57,7 @@ block content
 	section.container-fluid
 		div.row
 			
-			div.col-lg-10.col-md-10.col-sm-12.col-xs12.col-lg-offset-1
+			div.col-lg-8.col-md-8.col-sm-12.col-xs12.col-lg-offset-2.col-md-offset-1
 				div.titularSeccion
 
 					h1  	&iquest;C&oacute;mo puedes hacer parte de Recolector de Sue&ntilde;os?
@@ -70,31 +70,34 @@ block content
 						Sigue estos 4 pasos y estar&aacute;s m&aacute;s cerca de ayudar a cumplir el sue&ntilde;o de un niño.
 
 
-					div.col-lg-3.col-md-4.col-sm-6.col-xs12.col-lg-offset-2.col-md-offset-1
+					div.col-lg-3.col-md-3.col-sm-6.col-xs12.col-lg-offset-1.col-md-offset-1
 						p.paso-primero.
 							<span>1.</span> Selecciona el sueño que quieres apoyar con la donaci&oacute;n de un regalo.
 
-					div.col-lg-3.col-md-4.col-sm-6.col-xs12.col-md-offset-0
+					div.col-lg-3.col-md-3.col-sm-6.col-xs12.col-md-offset-0
 						p.paso-segundo.
 							<span>2.</span> Registra tus datos personales. Insp&iacute;rate y escribe un mensaje que podrá&aacute;s adjuntar al regalo del ni&ntilde;o que vas a apoyar.
 
-					div.col-lg-3.col-md-4.col-sm-6.col-xs12.col-md-offset-0
+					div.col-lg-3.col-md-3.col-sm-6.col-xs12.col-md-offset-0
 						p.paso-tercero.
 							<span>3.</span> Ubica el punto Deprisa m&aacute;s cercano. Y ll&eacute;valo all&iacute; y durante las pr&oacute;ximas 48 horas.
 
 
 
-					div.col-lg-7.col-md-7.col-sm-12.col-xs12.col-lg-offset-2
+					div.col-lg-7.col-md-7.col-sm-12.col-xs12.col-lg-offset-1
 						h2.pasos.
 							Los regalos donados ser&aacute;n entregados a los ni&ntilde;os en compañ&iacute;a con la Fundaci&oacute;n Dra. Clown para que los disfruten esta Navidad.
 					
-						
+			div.cont-bombera
+			div.sprite-nubes-luna.cont-nubeII			
+
+
 
 	//-GaleriaSueños
 	section.container-fluid
 		div.row
 
-			div.col-lg-10.col-md-10.col-sm-12.col-xs12.col-lg-offset-1
+			div.col-lg-8.col-md-8.col-sm-12.col-xs12.col-lg-offset-2.col-md-offset-1
 				div.titularSeccion
 
 					h2  	Aquí hay muchos sueños por cumplir, &iexcl;Elije uno!
@@ -102,23 +105,29 @@ block content
 					div#mycarousel.carousel.slide(data-ride="carousel")
 
 						//-ContenedorImagenes
-						div.carousel-inner(role="listbox")
+						div.carousel-inner.categoria(role="listbox")
 
+							
 							div.item.active
 
-								img(alt="Doctores")
+								a(href="#", target="blank")
+									img.sprite-categorias.sue-pilotos(alt="pilotos")
 
 							div.item
 
-								img(alt="Profesores")
+								a(href="#", target="blank")
+									img.sprite-categorias.sue-chef(alt="chef")
 
 							div.item
 
-								img(alt="Chefs")
+								a(href="#", target="blank")
+									img.sprite-categorias.sue-profe(alt="profe")
 
 							div.item
 
-								img(alt="Pilotos")
+								a(href="#", target="blank")
+									img.sprite-categorias.sue-medic(alt="profe")
+
 
 						//-Flechas
 						a.left.carousel-control(href="#mycarousel",role="button",data-slide="prev")

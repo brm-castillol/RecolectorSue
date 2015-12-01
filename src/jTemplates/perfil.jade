@@ -18,73 +18,107 @@ block content
 	//-Perfil Niños
 	section.container-fluid
 		div.row
-			div.col-lg-12.col-md-12.col-sm-12.col-xs12
+			div.col-lg-8.col-md-8.col-sm-12.col-xs12.col-lg-offset-2.col-md-offset-1
 				div.titularSeccion
 
-					h1 Capitan
+					h1.titulo-perfil.
+						 Capitan
 
 					img.img-resposive(src="", alt="Avion")
 
-					p.
+					p.intro-pasosRS.
 						Inspírate y escribe un mensaje que podrás descargar y adjuntar al regalo del niño que vas a apoyar.
 
 		//-Datos Niños
 		div.row
-			
-			div.col-lg-6.col-md-6.col-sm-6.col-xs12
-				
-				img.img-resposive(src="", alt="ImgNiños")
 
-				h3 Maria Cristina Gomez
-				span 7 Años
-				span Fundación Niños por un nuevo planeta
+			div.col-lg-8.col-md-8.col-sm-12.col-xs12.col-lg-offset-2.col-md-offset-1
+
+				div.cont-inform-recolector
+
+					div.col-lg-4.col-md-4.col-sm-6.col-xs12.col-lg-offset-1.col-md-offset-1
+						
+						img.img-resposive.img-chicuelos-perfil(src="images/img-nina1.png", alt="ImgNiños")
+
+						h3 Maria Cristina Gomez
+						p.datos-chicos 7 Años
+						p.datos-chicos Fundación Niños por un nuevo planeta
 
 
-			//-Registro
-			div#datos-registro.col-lg-6.col-md-6.col-sm-6.col-xs12
-				label Nombre
-				input(type="text")
+					//-Registro
+					div#datos-registro.col-lg-4.col-md-4.col-sm-6.col-xs12.col-lg-offset-1.col-md-offset-1
+						
+						form.registro-tarjeta
 
-				label Correo
-				input(type="text")
+							label Nombre
+							input(type="text")
 
-				label Cedula
-				input(type="text")
+							label Cedula
+							input(type="text")
 
-				label Selecciona el diseño de tu tarjeta:
+							label Correo
+							input(type="text")
 
-				button.tarjeta.
-						Opcion 1
+							label Celular
+							input(type="text")
 
-				button.tarjeta.
-						Opcion  2.
+							label Selecciona el diseño de tu tarjeta:
 
-				a.btn-volver(href="#")
-			
-					img.img-responsive(src="", alt="Descargar")
+							button.tarjeta-a.
 
-				a.btn-volver(href="#")
-			
-					img.img-responsive(src="", alt="Enviar")
+								Opcion 1
 
-			//-Tarjeta
-			div#datos-tarjeta.col-lg-6.col-md-6.col-sm-6.col-xs12(style="display:none;")
+							button.tarjeta-b.
+									Opcion  2.
 
-				a.btn-volver(href="#")
-			
-					img.img-responsive(src="", alt="Descargar")
+						a.btn-clase-b(href="#").
 
-				a.btn-volver(href="#")
-			
-					img.img-responsive(src="", alt="Enviar")
-		
+							Volver
+							
+
+						a.btn-clase-b(href="#").
+
+							Enviar
+
+					//-Tarjeta
+					div#datos-tarjeta.col-lg-6.col-md-6.col-sm-6.col-xs12(style="display:none;")
+
+						a.btn-volver(href="#")
+					
+							img.img-responsive(src="", alt="Descargar")
+
+						a.btn-volver(href="#")
+					
+							img.img-responsive(src="", alt="Enviar")
+		//-BTN FINALES
 		div.row
-			div.col-lg-12.col-md-12.col-sm-12.col-xs12
-				a.btn-volver(href="#")
-					img.img-responsive(src="", alt="Volver")
+			div.col-lg-8.col-md-8.col-sm-12.col-xs12.col-lg-offset-2.col-md-offset-1.conte-botones-fin
+				
+				a.btn-clase(href="#").
 
-				a.btn-volver(href="#")
-					img.img-responsive(src="", alt="Cotinuar")
+					Volver
+
+				a.btn-clase(href="#").
+					Continuar
+
+		div.sprite-estrellas.cont-Estella.star-a
+		div.sprite-estrellas.cont-Estella.star-c
+		div.sprite-estrellas.cont-Estella.star-d
+		div.sprite-estrellas.cont-Estella2.stars-d
+		div.sprite-estrellas.cont-Estella-B.star-5
+		div.punto-R.posicion-a
+		div.punto-R.posicion-b
+		div.punto-R.posicion-c
+		div.punto-A.posicionA-a
+		div.punto-A.posicionA-b
+		div.punto-A.posicionA-c
+		div.punto-A.posicionA-d
+		div.punto-B.posicionB-a
+		div.punto-B.posicionB-b
+		div.punto-B.posicionB-c
+		div.punto-B.posicionB-d
+		div.sprite-nubes-luna.cont-nube.nube-a
+
 
 
 

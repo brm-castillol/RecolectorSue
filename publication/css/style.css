@@ -1,4 +1,4 @@
-/*! Recolector de Sueños - v0.1.0 - 2015-11-30
+/*! Recolector de Sueños - v0.1.0 - 2015-12-01
 * https://github.com/castillol/HTML
 * Copyright (c) 2015 Lady Castillo; Licensed MIT */
 a {
@@ -29,6 +29,7 @@ h2 {
   margin: 0.3em 0 0;
   position: relative;
   z-index: 200000;
+  display: inline-block;
 }
 .img-manchita {
   background-image: url("../images/img-mancha.png");
@@ -54,11 +55,6 @@ h2 {
 .cont-infografia {
   padding-top: 8%;
 }
-.cont-infografia p.intro-pasosRS {
-  font-size: 1.5rem;
-  margin: 0 auto;
-  width: 60%;
-}
 .cont-infografia p {
   font-size: 1.5rem;
   line-height: 1.5rem;
@@ -72,15 +68,116 @@ h2 {
   margin-top: 40%;
 }
 .cont-infografia p.paso-segundo {
-  margin-top: 57%;
+  margin-top: 43%;
 }
 .cont-infografia p.paso-tercero {
-  margin-top: 40%;
+  margin-top: 19%;
 }
 .cont-infografia h2.pasos {
   font-size: 7rem;
   line-height: 4rem;
   text-align: center;
+}
+p.intro-pasosRS {
+  font-size: 1.8rem;
+  margin: 0 auto;
+  width: 60%;
+}
+.conte-botones-fin {
+  text-align: center;
+}
+button {
+  background-color: none;
+}
+.btn-clase-b {
+  margin: 0 3rem 2rem 0 !important;
+}
+.btn-clase,
+.btn-clase-b {
+  background-color: none !important;
+  background-image: url("../images/img-mancha.png");
+  background-position: 0px 29px;
+  background-repeat: no-repeat;
+  border: none;
+  color: #ffff6c;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'September-Mornings', sans-serif;
+  font-size: 7.5rem;
+  height: 97px;
+  margin: 0 4rem 2rem 0;
+  text-align: center;
+  width: 146px;
+}
+.btn-clase:hover,
+.btn-clase-b:hover,
+.btn-clase:active,
+.btn-clase-b:active,
+.btn-clase:focus,
+.btn-clase-b:focus {
+  color: #fff;
+  text-decoration: none;
+}
+h1.tiulo-catego {
+  color: #ffff6c;
+  display: inline-block;
+  font-family: 'September-Mornings', sans-serif;
+  font-size: 9rem;
+  line-height: 5rem;
+  margin: 0.4em 0 0 2rem;
+  position: relative;
+  z-index: 200000;
+}
+.iconos-suen {
+  background-image: url("../images/sprite-categorias.png");
+}
+.ico-piloto {
+  background-position: -518px -178px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  float: left;
+  height: 180px;
+  width: 150px;
+}
+h1.titulo-perfil {
+  color: #ffff6c;
+  display: inline-block;
+  font-family: 'September-Mornings', sans-serif;
+  font-size: 15rem;
+  line-height: 5rem;
+  margin: 0.3em 0 0;
+  position: relative;
+  z-index: 200000;
+}
+h3 {
+  color: #ffff6c;
+  font-family: 'September-Mornings', sans-serif;
+  font-size: 8rem;
+  line-height: 6rem;
+}
+.datos-chicos {
+  color: #fff;
+  font-family: 'September-Mornings', sans-serif;
+  font-size: 5rem;
+  line-height: 1.5rem;
+}
+.img-chicuelos-perfil {
+  margin-top: 7rem;
+}
+form.registro-tarjeta {
+  margin-top: 7rem;
+}
+form.registro-tarjeta label {
+  color: #ffff6c;
+  font-family: 'September-Mornings', sans-serif;
+  font-size: 6rem;
+  line-height: 5rem;
+  margin: 0;
+  font-weight: 200;
+}
+form.registro-tarjeta input {
+  border: 1px #80d7f9 solid;
+  width: 100%;
 }
 .btn-cargar-mas {
   background-color: #144b80 !important;
@@ -161,6 +258,11 @@ footer {
 }
 .carousel {
   max-width: 50%;
+}
+.active {
+  margin: 0;
+  padding: 0;
+  max-width: 200px;
 }
 @font-face {
   font-family: 'Roboto-Bold';
@@ -339,6 +441,11 @@ p.legales-validador {
   position: absolute;
   top: 83%;
 }
+.stars-d {
+  left: 26%;
+  position: absolute;
+  top: 150%;
+}
 .cont-nube {
   background-position: 8px 106px;
   height: 100px;
@@ -439,6 +546,90 @@ p.legales-validador {
   left: 74%;
   position: absolute;
   top: 80%;
+}
+.cont-veterinaria {
+  background-image: url("../images/img-veterinaria.png");
+  height: 399px;
+  width: 407px;
+}
+.cont-bombera {
+  background-image: url("../images/img-bomberita.png");
+  height: 399px;
+  left: 110rem;
+  position: absolute;
+  top: 129rem;
+  width: 407px;
+  z-index: 10;
+}
+.cont-nubeII {
+  background-position: -324px 370px;
+  display: inline-block;
+  height: 248px;
+  left: 123rem;
+  position: absolute;
+  top: 144rem;
+  width: 290px;
+}
+.cont-nube-3 {
+  background-position: -28px 301px;
+  height: 180px;
+  width: 270px;
+}
+.nube-ab {
+  position: absolute;
+  top: 80rem;
+  left: 46rem;
+}
+.item {
+  margin: 0;
+}
+.categoria {
+  height: 179px;
+}
+.categoria a {
+  border: none;
+}
+.categoria a img {
+  border: none;
+}
+.sprite-categorias {
+  background-image: url("../images/sprite-categorias.png");
+  background-repeat: no-repeat;
+}
+.sue-pilotos {
+  height: 179px !important;
+  width: 160px;
+  display: inline-block !important;
+}
+.sue-pilotos background-position -512px -173px:hover {
+  background-position: -512px 8px;
+}
+.sue-chef {
+  height: 179px !important;
+  width: 160px;
+  display: inline-block !important;
+}
+.sue-chef background-position -340px -169px:hover {
+  background-position: -340px 1px;
+}
+.sue-profe {
+  height: 179px !important;
+  width: 160px;
+  display: inline-block !important;
+}
+.sue-profe background-position -172px -169px:hover {
+  background-position: -172px 1px;
+}
+.sue-medic {
+  height: 179px !important;
+  width: 160px;
+  display: inline-block !important;
+}
+.sue-medic background-position 4px -174px:hover {
+  background-position: 4px 4px;
+}
+.categorias-int {
+  padding-top: 13em;
 }
 .u-bg-azul {
   background-color: #144b80;
